@@ -1,0 +1,81 @@
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 0%;
+padding-left: 0%;
+padding-right: 0%;
+font-weight: bold;
+}
+h1{
+    color: rgba(0, 3, 1, 0.836);
+    font-size: 20px;
+}
+
+ul li{
+display: inline-block;
+padding: 1% 50px;
+font-size: 15px;
+
+}
+
+a{
+    color: rgba(226, 19, 47, 0.836);
+    
+    text-decoration: none;
+}
+a:hover{
+ color: rgb(250, 6, 6);
+}
+p{
+font-size: 25px;
+color: rgba(143, 2, 32, 0.938);
+}
+body{
+    background: url(OIP.jpg);
+    background-size:cover
+}
+
+
+.brand img{
+width: 80px;
+height: 80px;
+padding-top: 0%;
+
+
+}
+h3{ 
+    font-size: 30px;
+}
+
+header.abajo{
+background: #fff;
+padding: 1px 1px;
+
+}
+header.abajo.logo,
+header.abajo ul li a{
+    color: #000;
+}
+header .logo{
+position: relative;
+color: #fff;
+    transition: 1.5s;
+font-size: 2em;
+letter-spacing: 2px;
+font-weight: bold;
+
+}
+header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-around;
+transition: 0.7s;
+padding: 10px 5px;
+
+
+
+}

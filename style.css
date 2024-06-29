@@ -1,3 +1,4 @@
+
 nav{
 display: flex;
 align-items: center;
@@ -8,14 +9,14 @@ padding-right: 0%;
 font-weight: bold;
 }
 h1{
-    color: rgba(0, 3, 1, 0.836);
-    font-size: 20px;
+    color: rgba(240, 7, 7, 0.836);
+    font-size: 30px;
 }
 
 ul li{
 display: inline-block;
 padding: 1% 50px;
-font-size: 15px;
+font-size: 25px;
 
 }
 
@@ -32,8 +33,8 @@ font-size: 25px;
 color: rgba(143, 2, 32, 0.938);
 }
 body{
-    background: url(OIP.jpg);
-    background-size:cover
+    background :#000
+    
 }
 
 
@@ -46,20 +47,22 @@ padding-top: 0%;
 }
 h3{ 
     font-size: 30px;
+    color: brown;
+
 }
 
 header.abajo{
-background: #fff;
+background: #5a0202;
 padding: 1px 1px;
 
 }
 header.abajo.logo,
-header.abajo ul li a{
-    color: #000;
+header.abajo ul li a h1{
+    color: #000000;
 }
 header .logo{
 position: relative;
-color: #fff;
+color: #f3e7e7;
     transition: 1.5s;
 font-size: 2em;
 letter-spacing: 2px;
@@ -79,3 +82,4 @@ padding: 10px 5px;
 
 
 }
+

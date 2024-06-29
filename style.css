@@ -10,13 +10,13 @@ font-weight: bold;
 }
 h1{
     color: rgba(240, 7, 7, 0.836);
-    font-size: 30px;
+    font-size: 20px;
 }
 
 ul li{
 display: inline-block;
 padding: 1% 50px;
-font-size: 25px;
+font-size: 15px;
 
 }
 
